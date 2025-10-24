@@ -45,14 +45,18 @@
     
     self.campoRespuesta.hidden = YES;
     self.labelPuntaje.hidden = YES;
+    self.boton.titleLabel.font = [UIFont fontWithName:@"Locator" size:30.0];
 }
 
 - (IBAction)botonAccion:(id)sender {
     if(!self.iniciar){
         self.iniciar = YES;
         self.indiceActual = 0;
+        //self.puntaje = 0;
+        self.labelPuntaje.text = @"Puntos: 0";
         self.campoRespuesta.hidden = NO;
         self.labelPuntaje.hidden = NO;
+        self.campoRespuesta.enabled = YES;
         [self mostrarPalabra];
         [self.boton setTitle:@"Verificar" forState:UIControlStateNormal];
     } else if (self.siguiente){
@@ -63,6 +67,7 @@
             [self.boton setTitle:@"Verificar" forState:UIControlStateNormal];
             self.campoRespuesta.text = @"";
             self.campoRespuesta.hidden = NO;
+            self.campoRespuesta.enabled = YES;
         } else {
             self.labelMensaje.text = @"Terminamos por hoy Jefe, buen trabajo.";
             self.campoRespuesta.hidden = YES;
@@ -70,7 +75,6 @@
             self.iniciar = NO;
             self.indiceActual = -1;
             self.puntaje = 0;
-            self.labelPuntaje.text = @"Puntos: 0";
         }
     } else {
         [self verificarRespuesta];
@@ -95,7 +99,7 @@
     self.labelPuntaje.text = [NSString stringWithFormat:@"Puntos: %d", (int)self.puntaje];
     self.indiceActual++;
     self.siguiente = YES;
-    //self.campoRespuesta.enabled = NO;
+    self.campoRespuesta.enabled = NO;
     [self.boton setTitle:@"Siguiente" forState:UIControlStateNormal];
 }
 
