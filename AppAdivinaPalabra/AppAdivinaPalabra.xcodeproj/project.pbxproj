@@ -16,6 +16,7 @@
 		AC4FE2812EAAD2830058EE3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4FE2802EAAD2830058EE3D /* main.m */; };
 		AC4FE2892EAAD7EE0058EE3D /* Halo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC4FE2872EAAD7EE0058EE3D /* Halo.ttf */; };
 		AC4FE28A2EAAD7EE0058EE3D /* Halo-Outline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC4FE2882EAAD7EE0058EE3D /* Halo-Outline.ttf */; };
+		AC7FE7F32EAAE7EE0071A616 /* Locator.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC7FE7F22EAAE7ED0071A616 /* Locator.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		AC4FE2802EAAD2830058EE3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC4FE2872EAAD7EE0058EE3D /* Halo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Halo.ttf; sourceTree = "<group>"; };
 		AC4FE2882EAAD7EE0058EE3D /* Halo-Outline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Halo-Outline.ttf"; sourceTree = "<group>"; };
+		AC7FE7F22EAAE7ED0071A616 /* Locator.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Locator.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				AC4FE2802EAAD2830058EE3D /* main.m */,
 				AC4FE2882EAAD7EE0058EE3D /* Halo-Outline.ttf */,
 				AC4FE2872EAAD7EE0058EE3D /* Halo.ttf */,
+				AC7FE7F22EAAE7ED0071A616 /* Locator.ttf */,
 			);
 			path = AppAdivinaPalabra;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 				AC4FE2892EAAD7EE0058EE3D /* Halo.ttf in Resources */,
 				AC4FE27E2EAAD2830058EE3D /* LaunchScreen.storyboard in Resources */,
 				AC4FE27B2EAAD2830058EE3D /* Assets.xcassets in Resources */,
+				AC7FE7F32EAAE7EE0071A616 /* Locator.ttf in Resources */,
 				AC4FE28A2EAAD7EE0058EE3D /* Halo-Outline.ttf in Resources */,
 				AC4FE2792EAAD27F0058EE3D /* Main.storyboard in Resources */,
 			);

@@ -6,6 +6,7 @@
 	<array>
 		<string>Halo.ttf</string>
 		<string>Halo-Outline.ttf</string>
+		<string>Locator.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
